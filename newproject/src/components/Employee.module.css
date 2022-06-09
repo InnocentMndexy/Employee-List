@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+
+    
+    margin: 20px 0px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+    color: black;
+    font-family: sans-serif;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: black;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-style: bold;
+}
+nav ul li button:hover
+{
+    color: black;
+    font-style: Bold;
+    box-shadow: 0 0 10px orangered;
+}
+nav ul li a:hover
+{
+    color: black;
+ 
+    box-shadow: 0 0 10px orangered;
+}
+
+body{
+   
+    background: url(../images/Blyde.jpg) no-repeat center center/cover;
+}
+.sepemp{
+    width: 400px;
+    height: auto;
+    background-color: rgb(184, 178, 178);
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.containeremp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px; 
+   
+ }
+.wrapperemp{
+    display: flex;
+}
+
+.wrapperemp h3{
+    text-align: center;
+    color: rgb(22, 22, 22);
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 10%;
+    text-align: center;
+
+}
+  
+.teamemp{
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.teammembersemp{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.team1emp{
+    background-image: url('../images/Profile.jpg');
+}
+.team2emp{
+    background-image: url('../images/ali.jpg');
+}
+.team3emp{
+    background-image: url('../images/icons.jpg');
+}
+.team4emp{
+    background-image: url('../images/photographer.webp');
+}
+.team5emp{
+    background-image: url('../images/man.webp');
+}
+.team6emp{
+    background-image: url('../images/woman.png');
+}
+
+.teamemp h4{
+    padding: 200px;
+    text-align: center;
+}
+
+.teamemp p{
+    padding: -1000px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.teamemp a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.teamemp:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+} 
